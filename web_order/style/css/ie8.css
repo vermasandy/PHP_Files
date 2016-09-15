@@ -1,0 +1,7 @@
+#main table tr td {
+	background: #f6f6f6;
+	padding: 0px 20px;
+	height: 29px;
+	line-height: 29px;
+	border-bottom: 1px solid #ddd;
+}

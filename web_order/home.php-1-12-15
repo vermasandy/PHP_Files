@@ -1,0 +1,71 @@
+<?php include_once("header.php");
+	$_SESSION['error'] = "";
+        
+        
+        
+?>
+
+<!---            <img src="img/phone_order.png"> --->
+
+<div align="middle">
+    
+    <form action="order_run.php">
+    <table border="0" width="400" cellpadding="4" cellspacing="2">
+        
+        <tr><td colspan="2"><font size="12"><b>NEW ORDER<br>(pickup at:<?php echo $_SESSION['userXaddress']; ?>)</b></font></td></tr>
+        
+        <tr><td><b>How Many Passengers?</b></td>
+            <td> <select>
+                                 <option>Select</option>
+                                 <option value="1">1</option>
+                                 <option value="1">2</option>
+                                 <option value="1">3</option>
+                                 <option value="1">4</option>
+                                 <option value="1">5</option>
+                                 <option value="1">6</option>
+                                 <option value="1">7</option>
+                                 <option value="1">8</option>
+                                 <option value="1">9</option>
+                                 <option value="1">10</option>
+                                 <option value="1">11</option>
+                                 <option value="1">12</option>
+                                </select>
+            </td></tr>
+        
+    <tr><td><b>Do You Have A Bicycle?</b></td>
+        <td><select>
+                                 <option>Select</option>
+                                 <option value="1">Yes</option>
+                                 <option value="2">No</option>
+            </select></td></tr>
+    
+    <tr><td><b>Do You Need An ADA Vehicle?</b></td>
+        <td><select>
+                                 <option>Select</option>
+                                 <option value="1">Yes</option>
+                                 <option value="2">No</option>
+            </select></td></tr>
+    
+    <tr><td><b>Are You Going To The Airport?</b></td>
+        <td><select>
+                                 <option>Select</option>
+                                 <option value="1">Yes</option>
+                                 <option value="2">No</option>
+            </select></td></tr>      
+                                 
+    <tr><td><b>ARE YOUR CLIENTS READY NOW?</b></td>
+        <td><select>
+                                 <option>Select</option>
+                                 <option value="1">Yes</option>
+                                 <option value="2">No</option>
+            </select></td></tr>
+    <tr><td>&nbsp;</td>
+        <td><input type="submit" value="Order Taxi"></td>
+    </tr>
+    </table>
+</form>
+
+</div>    
+    
+  </body>
+</html>
